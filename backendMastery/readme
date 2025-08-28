@@ -1,0 +1,8 @@
+Why JAVA:
+    It is compiled and interpreted language both.
+    It is object oriented language.
+    It is platform independent language. as JAVA compiler converts the code into "bytecode" which can be run on any platform.
+
+JVM: Java Virtual Machine
+    -> It is a software program that runs Java programs on a computer.
+    :: Verifier, Class Loader, Method Resolver, Bytecode Interpreter, Native Method Interface, Garbage Collector.

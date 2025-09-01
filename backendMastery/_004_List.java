@@ -1,4 +1,4 @@
-package Coding.backendMastery;
+package Java.backendMastery;
 
 import java.util.List;
 import java.util.ArrayList;

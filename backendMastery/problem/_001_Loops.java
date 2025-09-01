@@ -1,4 +1,4 @@
-package Coding.backendMastery.problem;
+package Java.backendMastery.problem;
 
 public class _001_Loops {
     // using for loop, make a  triangle

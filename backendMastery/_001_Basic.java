@@ -1,4 +1,4 @@
-package Coding.backendMastery; // package name
+package Java.backendMastery; // package name
 
 public class _001_Basic{ // public is the access modifier it means this class can be accessed from any where in the project. class is the keyword to define a class in java. _001_Basic is the name of the class and it should me same as the file name.
     public static void main(String[] args) { 

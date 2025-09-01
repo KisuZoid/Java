@@ -1,4 +1,4 @@
-package Coding.backendMastery;
+package Java.backendMastery;
 
 public class _003_Loops {
     public static void main(String[] args) {

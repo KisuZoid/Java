@@ -21,5 +21,16 @@ public class _007Q7_Reverse {
             num /= 10;
         }
         System.out.println("using modulo " + result2);
+
+        //using modulo and answer method
+        int ans = 0;
+        num = 12345;
+        while (num > 0){
+            int rem = num%10;
+            num /= 10;
+
+            ans = ans * 10 + rem;
+        }
+        System.out.println("using answer " + ans);
     }
 }

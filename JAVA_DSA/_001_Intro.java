@@ -15,6 +15,9 @@ public class _001_Intro { //class _001_Intro is public, i.e. accessible from oth
 
  
 /*
+ * class: 
+ *      it is the name and group of properties and fuctions.
+ * 
  * public: 
  *      it is the access modifier that allows the class to be accessible from other classes.
  * 

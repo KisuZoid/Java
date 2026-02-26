@@ -2,7 +2,7 @@ package Java.JAVA_DSA;
 
 import java.util.Scanner;
 
-public class _008_LargestNum {
+public class _007Q3_LargestNum {
     public static void Largest_2(int a, int b, int c){
         int max = a;
 

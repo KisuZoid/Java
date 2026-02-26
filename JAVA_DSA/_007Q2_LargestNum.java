@@ -3,7 +3,7 @@ package Java.JAVA_DSA;
 //find the largest among three numbers
 import java.util.Scanner;
 
-public class _007_LargestNum {
+public class _007Q2_LargestNum {
 
     //Creating the custom function
     public static void Largest_1(int a, int b, int c){

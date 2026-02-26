@@ -3,13 +3,11 @@ package Java.JAVA_DSA;
 public class _006_Loops {
     public static void main(String[] args) {
         // for loop -> for (initialization; condition; update){ //perform code}
-        System.out.println("For Loop:");
         for (int i = 0; i < 5; i++) {
             System.out.println("Iteration " + i);
         }
 
         // while loop -> while (condition == true){//perform code}
-        System.out.println("\nWhile Loop:");
         int j = 0;
         while (j < 5) {
             System.out.println("Iteration " + j);
@@ -17,7 +15,6 @@ public class _006_Loops {
         }
 
         // do-while loop -> do { //perform code } while (condition == true); gives at least one iteration
-        System.out.println("\nDo-While Loop:");
         int k = 0;
         do {
             System.out.println("Iteration " + k);

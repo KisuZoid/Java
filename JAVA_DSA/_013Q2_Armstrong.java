@@ -15,6 +15,7 @@ public class _013Q2_Armstrong {
         System.out.print("First n Armstrong: ");
         int input2 = in.nextInt();
         Armstrong(input2);
+        in.close();
 
     }
 

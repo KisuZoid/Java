@@ -56,6 +56,7 @@ public class _009_Swap {
         a = b;
         b = temp;
         System.out.println("Inside swap1: a = " + a + ", b = " + b);
+        //this change will only be valid in this function scope only.
     }
 
     //without using third variable

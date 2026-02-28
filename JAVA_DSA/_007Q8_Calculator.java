@@ -49,5 +49,7 @@ public class _007Q8_Calculator{
             }
             System.out.println("Result " + ans);
         }
+
+        in.close();
     }
 }

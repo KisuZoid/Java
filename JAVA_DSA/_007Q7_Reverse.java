@@ -8,7 +8,7 @@ public class _007Q7_Reverse {
         num = 12345;
         result1 = "";
         String x = String.valueOf(num);
-        for (int i = x.length()-1; i >=0; i--){;
+        for (int i = x.length()-1; i >=0; i--){
             result1 += x.charAt(i);
         }
         System.out.println("using Loop " + result1);

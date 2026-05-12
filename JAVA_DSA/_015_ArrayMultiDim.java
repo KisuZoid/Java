@@ -8,8 +8,10 @@ public class _015_ArrayMultiDim {
         //assume like matrix
         Scanner in = new Scanner(System.in);
 
+        //initialisation
         int[][] arr = new int[3][2]; //--> if we haven't added value => default is 0 for both 1d or 2d array in case of int datatype. and for String datatype => null is default for both 1d or 2d array. 
 
+        //add element
         System.out.println("provide input ");
         for (int row = 0; row < arr.length; row ++){
             for (int column = 0; column < arr[row].length; column++ ){
@@ -36,6 +38,8 @@ public class _015_ArrayMultiDim {
         for(int[] value : arr){
             System.out.println(Arrays.toString(value));
         }
+
+        in.close();
     }
 }
 

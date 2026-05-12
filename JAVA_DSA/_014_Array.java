@@ -27,6 +27,8 @@ public class _014_Array {
 
         // using toString method
         System.out.print(Arrays.toString(arr));
+
+        input.close();
     }
 }
 

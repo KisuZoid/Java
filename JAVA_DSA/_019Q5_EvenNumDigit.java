@@ -10,6 +10,7 @@ public class _019Q5_EvenNumDigit {
         System.out.println(EvenDigitEnhance(nums));
     }
 
+    //convert into string, take length
     static int EvenDigit(int[] arr){
         ArrayList<Integer> result = new ArrayList<>();
         for (int i = 0; i < arr.length; i++){
@@ -47,5 +48,39 @@ public class _019Q5_EvenNumDigit {
             }
         }
         return count;
+    }
+
+    //count digits in a number
+
+    static int findNum(int[] arr){
+        int count = 0;
+
+        for (int element : arr){
+            if (CheckEven(element)){
+                count++;
+            }
+        }
+        return count;
+    }
+
+    static int digit(int val){
+        int count = 0;
+        while (val > 0){
+            count++;
+            val = val/10;
+        }
+        return count;
+    }
+
+    static boolean CheckEven(int num){
+        int numberOfDigits = digit(num);
+        // if (numberOfDigits % 2 == 0){
+        //     return true;
+        // }
+        // return false;
+
+        //or
+
+        return numberOfDigits % 2 == 0;
     }
 }

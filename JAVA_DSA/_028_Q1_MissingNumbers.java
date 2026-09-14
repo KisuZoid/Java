@@ -1,3 +1,5 @@
+package Java.JAVA_DSA;
+
 // https://leetcode.com/problems/missing-number/description/
 
 public class _028_Q1_MissingNumbers {

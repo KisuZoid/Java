@@ -1,3 +1,5 @@
+package Java.JAVA_DSA;
+
 // https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
 /*
     [1, N] => index = value -1

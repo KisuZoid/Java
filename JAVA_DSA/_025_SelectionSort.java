@@ -46,4 +46,6 @@ TC: Worst case - O(N^2)
     //performs well in small list
 
 Stability: unstable algorithm
+
+i.e. Select the largest element and put it at last index, then select second largest and put it at second largest, and so on till all the array. -> no need to check whole array if that part is already sorted.
 */
